@@ -1,54 +1,41 @@
 [
     {
-        "id": "748eeb82.339474",
+        "id": "a26a2c47.37265",
         "type": "tab",
         "label": "Flow 1",
         "disabled": false,
         "info": ""
     },
     {
-        "id": "88aee463.06bd98",
-        "type": "http response",
-        "z": "748eeb82.339474",
-        "name": "",
-        "statusCode": "",
-        "headers": {},
-        "x": 100,
-        "y": 160,
-        "wires": []
-    },
-    {
-        "id": "8e1f3ee4.f07f2",
+        "id": "5a014ed1.c2b8e",
         "type": "express",
-        "z": "748eeb82.339474",
+        "z": "a26a2c47.37265",
         "name": "",
         "func": "var require = context.global.get('require');\nvar app=msg.app;\n \n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "x": 280,
-        "y": 180,
+        "y": 140,
         "wires": [
             [
-                "1e9eb831.4024d8"
+                "d911d5e.ea60528"
             ]
         ]
     },
     {
-        "id": "1e9eb831.4024d8",
+        "id": "d911d5e.ea60528",
         "type": "function",
-        "z": "748eeb82.339474",
+        "z": "a26a2c47.37265",
         "name": "",
         "func": "var require = context.global.get('require'); \n\nreturn msg;",
         "outputs": 1,
         "timeout": 10000,
         "newThread": false,
         "noerr": 0,
-        "x": 120,
-        "y": 260,
+        "x": 480,
+        "y": 220,
         "wires": [
-            [
-                "88aee463.06bd98"
-            ]
+            []
         ]
     }
 ]

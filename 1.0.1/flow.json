@@ -21,8 +21,8 @@
         "func": "var require = context.global.get('require');\nvar app=msg.app;\n \n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
-        "x": 260,
-        "y": 360,
+        "x": 280,
+        "y": 140,
         "wires": [
             [
                 "d911d5e.ea60528"

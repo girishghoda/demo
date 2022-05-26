@@ -1,6 +1,6 @@
 {
-    "name": "CUSTOM",
-    "description": "A Interplay Project",
+    "name": "Demo",
+    "description": "Demo Project",
     "version": "0.0.1",
     "dependencies": {},
     "node-red": {
