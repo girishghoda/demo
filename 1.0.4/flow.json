@@ -21,7 +21,7 @@
         "func": "var require = context.global.get('require');\nvar app=msg.app;\n \n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
-        "x": 180,
+        "x": 120,
         "y": 200,
         "wires": [
             [
@@ -42,7 +42,9 @@
         "x": 370,
         "y": 200,
         "wires": [
-            []
+            [
+                "84620b4a.462598"
+            ]
         ]
     },
     {
@@ -82,8 +84,8 @@
         "name": "Home",
         "url": "/home",
         "templateId": "84620b4a.462598",
-        "parentId": "",
-        "x": 560,
+        "parentId": "5a014ed1.c2b8e",
+        "x": 600,
         "y": 200,
         "wires": [
             []
